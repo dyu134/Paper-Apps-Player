@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Joystick Library") (type "KiCad") (uri "${KIPRJMOD}/Joystick Library.kicad_sym") (options "") (descr ""))
+)
