@@ -22540,17 +22540,6 @@
 		(uuid "f1f276a3-f459-4ff5-898f-12f756f2063e")
 	)
 	(gr_rect
-		(start 128.815 27.335)
-		(end 191.185 132.665)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill no)
-		(layer "User.1")
-		(uuid "8a3a5782-ba73-4b35-8149-21baa1cea345")
-	)
-	(gr_rect
 		(start 160.25 62)
 		(end 191.435 127.165)
 		(stroke
@@ -22560,6 +22549,17 @@
 		(fill no)
 		(layer "User.1")
 		(uuid "39d910b9-57dc-4475-bd81-091e636e275e")
+	)
+	(gr_rect
+		(start 128.815 27.335)
+		(end 191.185 132.665)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.3")
+		(uuid "8a3a5782-ba73-4b35-8149-21baa1cea345")
 	)
 	(gr_text "JLCJLCJLCJLC"
 		(at 140 110.5 0)
@@ -22582,6 +22582,102 @@
 				(size 1 1)
 				(thickness 0.2)
 				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Side Scroll Encoder"
+		(at 112.5 58.5 0)
+		(layer "User.1")
+		(uuid "1d06bcfd-5713-4958-b3de-4817b1e8c86a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Physical On/Off Switch"
+		(at 115.75 129.75 0)
+		(layer "User.1")
+		(uuid "7b109a26-03bd-4988-9ac0-13a43fcc34f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "E-Paper Screen Connector"
+		(at 131.25 38 0)
+		(layer "User.1")
+		(uuid "6f8554c5-a2b9-44c8-9e59-c44bcdfcef81")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "ESP32-S3 Microcontroller"
+		(at 131.25 99 0)
+		(layer "User.1")
+		(uuid "54d9d1a8-20ef-44e2-bd72-ff7067b1139f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "E-Paper Screen Header"
+		(at 151.25 29.25 0)
+		(layer "User.1")
+		(uuid "da4b4d77-d4cd-4538-9d43-898bd75fd26e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Micro-SD Card Slot"
+		(at 175.25 42.25 0)
+		(layer "User.1")
+		(uuid "5a2b0ac1-ae70-4b5b-965d-99eabe87b3ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Dedicated location for Single Cell Lithium Battery Pack"
+		(at 174.75 114 90)
+		(layer "User.1")
+		(uuid "e89470f8-f519-4267-8aae-d2c34c7c78a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "4.26{dblquote} E-Paper Screen Size"
+		(at 169.75 132.25 0)
+		(layer "User.3")
+		(uuid "19ecbfb0-e17a-4a6e-9575-1199d6acc027")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -29792,6 +29888,30 @@
 		(uuid "ef98ae8f-39ec-4f59-aa1a-243556125450")
 	)
 	(segment
+		(start 167.49 35.26)
+		(end 167.49 31.75)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/BUSY")
+		(uuid "4bc9ab72-f81b-4741-a6b3-21a61dd110ce")
+	)
+	(segment
+		(start 161.75 42.8)
+		(end 161.75 41)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/BUSY")
+		(uuid "61341ebd-1186-47c3-a268-6df4cd458105")
+	)
+	(segment
+		(start 161.75 41)
+		(end 167.49 35.26)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/BUSY")
+		(uuid "a769ac64-87e5-49d4-8ee7-03ea2d3e2922")
+	)
+	(segment
 		(start 157.25 45.725)
 		(end 156.25 44.725)
 		(width 0.2)
@@ -29830,30 +29950,6 @@
 		(layer "F.Cu")
 		(net "Net-(J2-Pin_24)")
 		(uuid "5097bb1a-36e2-4c74-93ba-5f8c66583d36")
-	)
-	(segment
-		(start 167.49 35.26)
-		(end 167.49 31.75)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/BUSY")
-		(uuid "4bc9ab72-f81b-4741-a6b3-21a61dd110ce")
-	)
-	(segment
-		(start 161.75 42.8)
-		(end 161.75 41)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/BUSY")
-		(uuid "61341ebd-1186-47c3-a268-6df4cd458105")
-	)
-	(segment
-		(start 161.75 41)
-		(end 167.49 35.26)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/BUSY")
-		(uuid "a769ac64-87e5-49d4-8ee7-03ea2d3e2922")
 	)
 	(zone
 		(net "GND")
